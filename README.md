@@ -1,8 +1,6 @@
-# Constellate Community Book
+# Python Basics Demo
 
-A book to hold notebooks for the Constellate Community
-
-## Usage
+A Jupyter Book to demonstrate the possibilities for the Constellate community.
 
 ### Building the book
 
@@ -28,7 +26,7 @@ This will automatically push your build to the `gh-pages` branch. More informati
 
 ## Contributors
 
-We welcome and recognize all contributions. You can see a list of current contributors in the [contributors tab](https://github.com/nkelber/cc/graphs/contributors).
+We welcome and recognize all contributions.
 
 ## Credits
 
