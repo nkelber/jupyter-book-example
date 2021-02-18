@@ -1,8 +1,14 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
 - file: intro
-- file: content
-  sections:
-    - file: markdown
-    - file: notebooks
-    - file: basics
+- part: Python Basics
+  chapters:
+    - file: pythonbasics/intro-to-jupyter
+      title: Getting Started with Jupyter Notebooks
+      sections:
+        - file: pythonbasics/basics1
+          title: 1. Python Basics I
+        - file: pythonbasics/basics2
+          title: 2. Python Basics II
+        - file: pythonbasics/basics3
+          title: 3. Python Basics III
