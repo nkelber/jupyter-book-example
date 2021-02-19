@@ -162,14 +162,3 @@ Congratulations! You have completed "Getting Started with Jupyter Notebooks." If
 * *Python Basics* III
 
 ## Start Next Lesson: [Python Basics I](./python-basics-1.ipynb)
-
-
-```{toctree}
-:hidden:
-:titlesonly:
-
-
-1. Python Basics I <basics1>
-2. Python Basics II <basics2>
-3. Python Basics III <basics3>
-```

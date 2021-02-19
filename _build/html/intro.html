@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demonstrating Jupyter Book &#8212; Python Basics</title>
+    <title>Demonstrating Jupyter Book &#8212; Lesson Repository</title>
     
   <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
@@ -50,14 +50,14 @@
     <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
+        const thebe_selector = ".thebe,.cell"
+        const thebe_selector_input = "pre,.cell_input div.highlight"
+        const thebe_selector_output = ".output,.cell_output"
     </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Getting Started with Jupyter Notebooks" href="pythonbasics/intro-to-jupyter.html" />
+    <link rel="next" title="Intro to Python Basics Curriculum" href="pybasics-description.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -79,7 +79,7 @@
   <img src="_static/logo.png" class="logo" alt="logo">
   
   
-  <h1 class="site-logo" id="site-title">Python Basics</h1>
+  <h1 class="site-logo" id="site-title">Lesson Repository</h1>
   
 </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -96,28 +96,33 @@
 </ul>
 <p class="caption collapsible-parent">
  <span class="caption-text">
-  Python Basics
+  Beginner Lessons
  </span>
 </p>
 <ul class="nav sidenav_l1">
  <li class="toctree-l1 collapsible-parent">
-  <a class="reference internal" href="pythonbasics/intro-to-jupyter.html">
-   Getting Started with Jupyter Notebooks
+  <a class="reference internal" href="pybasics-description.html">
+   Python Basics
   </a>
   <ul class="collapse-ul">
    <li class="toctree-l2">
+    <a class="reference internal" href="pythonbasics/intro-to-jupyter.html">
+     Getting Started with Jupyter Notebooks
+    </a>
+   </li>
+   <li class="toctree-l2">
     <a class="reference internal" href="pythonbasics/basics1.html">
-     1. Python Basics I
+     Python Basics I
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="pythonbasics/basics2.html">
-     2. Python Basics II
+     Python Basics II
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="pythonbasics/basics3.html">
-     3. Python Basics III
+     Python Basics III
     </a>
    </li>
   </ul>
@@ -225,7 +230,7 @@
     {
         requestKernel: true,
         binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
+            repo: "nkelber/jupyter-book-example",
             ref: "master",
         },
         codeMirrorConfig: {
@@ -249,7 +254,7 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='right-next' id="next-link" href="pythonbasics/intro-to-jupyter.html" title="next page">Getting Started with Jupyter Notebooks</a>
+    <a class='right-next' id="next-link" href="pybasics-description.html" title="next page">Intro to Python Basics Curriculum</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">

@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Getting Started with Jupyter Notebooks &#8212; Python Basics</title>
+    <title>Getting Started with Jupyter Notebooks &#8212; Lesson Repository</title>
     
   <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
@@ -50,15 +50,15 @@
     <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
+        const thebe_selector = ".thebe,.cell"
+        const thebe_selector_input = "pre,.cell_input div.highlight"
+        const thebe_selector_output = ".output,.cell_output"
     </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Python Basics I" href="basics1.html" />
-    <link rel="prev" title="Demonstrating Jupyter Book" href="../intro.html" />
+    <link rel="prev" title="Intro to Python Basics Curriculum" href="../pybasics-description.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -80,7 +80,7 @@
   <img src="../_static/logo.png" class="logo" alt="logo">
   
   
-  <h1 class="site-logo" id="site-title">Python Basics</h1>
+  <h1 class="site-logo" id="site-title">Lesson Repository</h1>
   
 </a>
 </div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
@@ -97,28 +97,33 @@
 </ul>
 <p class="caption collapsible-parent">
  <span class="caption-text">
-  Python Basics
+  Beginner Lessons
  </span>
 </p>
 <ul class="current nav sidenav_l1">
  <li class="toctree-l1 current active collapsible-parent">
-  <a class="current reference internal" href="#">
-   Getting Started with Jupyter Notebooks
+  <a class="reference internal" href="../pybasics-description.html">
+   Python Basics
   </a>
-  <ul class="collapse-ul">
+  <ul class="current collapse-ul">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Getting Started with Jupyter Notebooks
+    </a>
+   </li>
    <li class="toctree-l2">
     <a class="reference internal" href="basics1.html">
-     1. Python Basics I
+     Python Basics I
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="basics2.html">
-     2. Python Basics II
+     Python Basics II
     </a>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="basics3.html">
-     3. Python Basics III
+     Python Basics III
     </a>
    </li>
   </ul>
@@ -208,7 +213,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://binder.tdm-pilot.org/v2/gh/nkelber/jupyter-book-example/master?urlpath=tree/pythonbasics/intro-to-jupyter.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/nkelber/jupyter-book-example/master?urlpath=tree/pythonbasics/intro-to-jupyter.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="../_static/images/logo_binder.svg"
@@ -216,6 +221,9 @@
         
         
         
+        <button type="button" class="btn btn-secondary topbarbtn"
+            onclick="initThebeSBT()" title="Launch Thebe" data-toggle="tooltip" data-placement="left"><i
+                class="fas fa-play"></i><span style="margin-left: .4em;">Live Code</span></button>
         
     </div>
 </div>
@@ -527,8 +535,6 @@ For questions/comments/improvements, email <a class="reference external" href="m
 </div>
 <div class="section" id="start-next-lesson-python-basics-i">
 <h2>Start Next Lesson: <span class="xref myst">Python Basics I</span><a class="headerlink" href="#start-next-lesson-python-basics-i" title="Permalink to this headline">¶</a></h2>
-<div class="toctree-wrapper compound">
-</div>
 </div>
 </div>
 
@@ -536,7 +542,7 @@ For questions/comments/improvements, email <a class="reference external" href="m
     {
         requestKernel: true,
         binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
+            repo: "nkelber/jupyter-book-example",
             ref: "master",
         },
         codeMirrorConfig: {
@@ -560,7 +566,7 @@ For questions/comments/improvements, email <a class="reference external" href="m
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="../intro.html" title="previous page">Demonstrating Jupyter Book</a>
+    <a class='left-prev' id="prev-link" href="../pybasics-description.html" title="previous page">Intro to Python Basics Curriculum</a>
     <a class='right-next' id="next-link" href="basics1.html" title="next page">Python Basics I</a>
 
     </div>

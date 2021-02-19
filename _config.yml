@@ -5,7 +5,7 @@
 
 #######################################################################################
 # Book settings
-title                       : Python Basics  # The title of the book. Will be placed in the left navbar.
+title                       : Lesson Repository  # The title of the book. Will be placed in the left navbar.
 author                      : Nathan Kelber  # The author of the book
 copyright                   : "None"  # Copyright year to be placed in the footer
 logo                        : logo.png  # A path to the book logo
@@ -73,7 +73,7 @@ launch_buttons:
   notebook_interface        : classic  # The interface interactive links will activate ["classic", "jupyterlab"]
   binderhub_url             : https://mybinder.org  # The URL of the BinderHub (e.g., https://mybinder.org)
   jupyterhub_url            : ""  # The URL of the JupyterHub (e.g., https://datahub.berkeley.edu)
-  thebe                     : false  # Add a thebe button to pages (requires the repository to run on Binder)
+  thebe                     : true  # Add a thebe button to pages (requires the repository to run on Binder)
   colab_url                 : "" # The URL of Google Colab (https://colab.research.google.com)
 
 repository:
